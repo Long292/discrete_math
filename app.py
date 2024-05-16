@@ -124,6 +124,7 @@ def draw_graph_streamlit(z):
     st.pyplot(plt)
 
 st.title("Graph Score Validation and Visualization")
+st.subheader("- Phuc Long Project 🏆 🐲 ")
 
 # Get user input for the degree sequence
 sequence_str = st.text_input("Enter a degree sequence (comma-separated integers):")
